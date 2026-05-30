@@ -26,7 +26,7 @@ Make sure you have Docker and Docker Compose installed on your system.
 
 1. Clone the repository and navigate to the project directory:
    ```bash
-   git clone <your_repository_link>
+   git clone <https://github.com/fr1ght768/TaskAPI.git>
    cd TaskAPI
    ```
 
@@ -60,7 +60,7 @@ sudo firewall-cmd --reload
 
 3. Run the development server using Uvicorn:
    ```bash
-   uvicorn main:app --reload
+   uvicorn todolist:app --reload
    ```
    The API documentation will be available at http://127.0.0.
 

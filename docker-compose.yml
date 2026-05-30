@@ -1,0 +1,12 @@
+
+services:
+  web_api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - todo_volume:/app/data
+    restart: always
+
+volumes:
+  todo_volume:

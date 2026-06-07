@@ -62,7 +62,7 @@ sudo firewall-cmd --reload
    ```bash
    uvicorn todolist:app --reload
    ```
-   The API documentation will be available at http://127.0.0.
+   The API documentation will be available at http://127.0.0.0.1:8000/docs
 
 ---
 
